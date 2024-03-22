@@ -1,0 +1,63 @@
+.contents {
+    position: relative;
+    top: 1px;
+    left: 230px;
+    width: 1000px;
+}
+
+.contents .con-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #00ADB5;
+}
+
+.jupiter {
+    width: 1100px;
+    height: 200px;
+    background: #EEEEEE;
+    border-radius: 2.5em;
+    padding: 20px;
+    transition: transform 0.2s ease;
+    position: relative;
+    left: 10px;
+}
+
+.jupiter .title {
+    height: 100%;
+    width: 200px;
+    transition: transform 0.4s ease;
+    float: left;
+}
+
+.jupiter .title p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #393E46;
+    font-size: 20px;
+    height: 10px;
+}
+
+.jupiter .title img {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 120px;
+    height: 120px;
+    pointer-events: none;
+}
+
+.contents .jupiter .info1, .contents .jupiter .info2 {
+    color: #393E46;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+}
+
+.contents .jupiter .info2 {
+    position: relative;
+    left: 70px;
+}
+
+.jupiter:hover {
+    transform: scale(1.02);
+}

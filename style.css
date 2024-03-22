@@ -1,0 +1,83 @@
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #222831;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.menu-container {
+  position: relative;
+  display: inline-block;
+}
+
+.sidebar a:hover {
+  color: #EEEEEE;
+  transform: scale(1.1);
+  box-shadow: 4px 5px 17px -4px #00ADB5;
+}
+
+.sidebar a::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #00ADB5;
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.sidebar a {
+  padding: 15px 8px 15px 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  display: block;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #00ADB5;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sidebar a:hover::before {
+  width: 250%;
+}
+
+.icon {
+  position: relative;
+  top: 10px;
+  left: 260px;
+  width: 1050px;
+}
+
+.main-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 40px;
+  left: 250px;
+  width: 1000px;
+  background-color: #EEEEEE;
+  color: #222831;
+  padding: 10px;
+  border-radius: 3mm;
+}
+
+.down {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  width: 40px;
+  color: #00ADB5;
+  position: relative;
+  left: 750px;
+  top: 30px;
+}
