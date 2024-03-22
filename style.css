@@ -103,3 +103,12 @@
   border-radius: 20px;
   color: #EEEEEE;
 }
+
+.title-sky {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: #00ADB5;
+  position: relative;
+  left: 250px;
+  width: 1000px;
+}
