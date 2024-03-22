@@ -81,3 +81,25 @@
   left: 800px;
   top: 30px;
 }
+
+.info-start {
+  position: relative;
+  left: 250px;
+  top: 30px;
+  border-radius: 20px;
+  width: 1200px;
+  background-color: #EEEEEE;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222831;
+}
+
+.headding {
+  background-color: #00ADB5;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 30px;
+  width: 700px;
+  border-radius: 20px;
+  color: #EEEEEE;
+}
